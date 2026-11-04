@@ -3,12 +3,51 @@
 
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+    <style>
+        :root {
+            --gradient: linear-gradient(to right, rgb(5, 13, 88), rgb(69, 0, 122));
+            --main-background: rgb(252, 252, 252);
+            --main-foreground: rgb(83, 83, 83);
+            --pane-padding: 5px 42px;
+        }
+        body{
+            background-color: var(--main-background);
+            color: var(--main-foreground);
+            padding-top:70px;
+        }
+        footer{
+            background-image: var(--gradient);
+            padding-bottom:1vw;
+        }
+        footer p{
+            padding:10px 10px 0px 10px;
+            color: var(--main-background);
+        }
+        h1,h2,h3,h4{
+            text-align: center;
+            color: var(--main-foreground);
+        }
+        .fancy-box{
+            width:50vw;
+            margin-top:10px;
+            margin-bottom:10px;
+            padding:10px 12px 0px 12px;
+            border: 1px solid;
+            border-radius: 8px;
+            border-color: black;
+        }
+        .navbar-custom{background-image: var(--gradient);}
+        .navbar-custom .nav-link {color: var(--main-background)}
+        .navbar-custom .nav-link:hover {color: var(--main-background);}
+        .navbar-custom .navbar-brand {color: var(--main-background);}
+    </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Your Name Here</a>
+        <nav class="navbar navbar-expand-md navbar-custom fixed-top">
+            <a class="navbar-brand" href="#">D.A.S.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,13 +67,16 @@
         <h1>Assignment 2</h1>
     </header>
     <main>
-        <section><x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html></section>
-        <section><x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html></section>
-        <section><x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html></section>
-        <section><x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html></section>
-        <section><x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html></section>
-        <section><x-markdown2html src="contact.md" id="contact"></x-markdown2html></section>
-        <section><x-markdown2html src="about.md" id="about"></x-markdown2html></section>
+        <div class="d-flex flex-column align-items-center">
+        <section class="fancy-box"><x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="contact.md" id="contact"></x-markdown2html></section>
+        <section class="fancy-box"><x-markdown2html src="about.md" id="about"></x-markdown2html></section>
+        </div>
+
     </main>
     <footer>
         <p>Your name here</p>
