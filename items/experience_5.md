@@ -8,4 +8,4 @@ It was, the most beautiful walk I've ever been on. I've always loved how Autumn 
 
 Overall, I'd give the experience a C+.
 
-![Waterfall during Autumn in Hamilton, ON](images/waterfall.jpg)
+![Waterfall during Autumn in Hamilton, ON](items/images/waterfall.jpg)

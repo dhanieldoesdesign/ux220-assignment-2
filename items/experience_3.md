@@ -9,4 +9,4 @@ Beijing and Xi'an are largely, standard, Chinese cities. I can talk about their 
 
 I rate this experience, and the whole trip in general, an A+.
 
-![Photo of Harbin Ice City](images/harbin.jpg)
+![Photo of Harbin Ice City](items/images/harbin.jpg)

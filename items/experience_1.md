@@ -7,4 +7,4 @@ What I will say is that it's definitely not for everyone. It requires you to be 
 
 I would rate this experience an A-.
 
-![River Rafting](images/rafting.jpg)
+![River Rafting](items/images/rafting.jpg)

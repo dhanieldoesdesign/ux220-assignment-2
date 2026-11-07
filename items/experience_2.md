@@ -8,4 +8,4 @@ It's not a particularly hard mountain so summit. It's just a walk up and down a 
 
 Overall, I rate this experience a C+.
 
-![Photo of Mount Sumbing](images/sumbing.jpg)
+![Photo of Mount Sumbing](items/images/sumbing.jpg)

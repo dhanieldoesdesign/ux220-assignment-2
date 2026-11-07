@@ -10,4 +10,4 @@ Another highlight, and I believe the biggest highlight of the trip for me, was S
 
 Oh, the concert was awesome too. Lady Gaga was there. B+.
 
-![Singapore Marina Bay](images/singapore.jpg)
+![Singapore Marina Bay](items/images/singapore.jpg)

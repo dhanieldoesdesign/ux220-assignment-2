@@ -6,7 +6,7 @@
 
     <style>
         :root {
-            --gradient: linear-gradient(to right, rgb(5, 13, 88), rgb(69, 0, 122));
+            --gradient: linear-gradient(to right, rgb(5, 13, 88), rgb(97, 0, 172));
             --main-background: rgb(252, 252, 252);
             --main-foreground: rgb(83, 83, 83);
             --pane-padding: 5px 42px;
@@ -32,10 +32,22 @@
             width:50vw;
             margin-top:10px;
             margin-bottom:10px;
-            padding:10px 12px 0px 12px;
-            border: 1px solid;
+            padding:20px 22px 0px 22px;
+            border: 2px solid;
             border-radius: 8px;
             border-color: black;
+        }
+        h1,.playfair-display {
+          font-family: "Playfair Display", serif;
+          font-optical-sizing: auto;
+          font-weight: 550;
+          font-style: normal;
+        }
+        .raleway-main {
+            font-optical-sizing: auto;
+            font-family: "Raleway", sans-serif;
+            font-weight: 500;
+            font-style: normal;
         }
         .navbar-custom{background-image: var(--gradient);}
         .navbar-custom .nav-link {color: var(--main-background)}
@@ -68,13 +80,13 @@
     </header>
     <main>
         <div class="d-flex flex-column align-items-center">
-        <section class="fancy-box"><x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="contact.md" id="contact"></x-markdown2html></section>
-        <section class="fancy-box"><x-markdown2html src="about.md" id="about"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="contact.md" id="contact"></x-markdown2html></section>
+        <section class="fancy-box raleway-main"><x-markdown2html src="about.md" id="about"></x-markdown2html></section>
         </div>
 
     </main>
